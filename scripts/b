@@ -1,0 +1,7 @@
+#!/bin/bash
+export GOOS=linux
+export GOARCH=386
+export GOARM=8
+echo "building $1:"
+/home/j/Work/go/bin/go build $1.go
+ls -l .

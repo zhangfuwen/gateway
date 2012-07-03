@@ -1,0 +1,8 @@
+#!/bin/bash
+export GOOS=linux
+export GOARCH=386
+export GOARM=8
+export GOPATH=/tftpboot/project4
+alias go="/home/j/Work/go/bin/go"
+alias l="ls --color"
+alias ll="ls -l"
